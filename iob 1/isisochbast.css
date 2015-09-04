@@ -1,0 +1,39 @@
+body {
+	font-family: "Courier New", "Inconsolata", Helvetica;
+	font-size: 1em;
+	background: url("background.png");
+    	background-repeat: repeat;
+    	background-attachment: fixed;
+    	color: #5DFC0A;
+}
+
+h1 {
+	font-weight: normal;
+}
+
+div.content {
+	width: 70%;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	position: fixed;
+	top: 32%;
+	left: 15%;
+}
+
+a:link {
+	text-decoration: none;
+	font-family: "Oswald";
+    color: #5DFC0A;
+}
+
+a:visited {
+	text-decoration: none;
+	color: #8D38C9;
+}
+
+
+a:hover {
+	text-decoration: none;
+	color: #8D38C9;
+}
