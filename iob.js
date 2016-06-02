@@ -1,11 +1,11 @@
-// function welcome() {
-// 	window.location = "omoss.html"
-// }
+$('a.linkedin').click(function(e) {
+    e.preventDefault();
+    window.open('https://www.linkedin.com/in/lovisa-lugneg%C3%A5rd-b101ba91');
+    window.open('https://www.linkedin.com/in/elviraboman?trk=pub-pbmap');
+});
 
-
-function blink() {
-   var f = document.getElementById('dash');
-   setInterval(function() {
-      f.style.display = (f.style.display == 'none' ? '' : 'none');
-   }, 700);
-}
+$('a.github').click(function(e) {
+    e.preventDefault();
+    window.open('https://github.com/LovisaLugnegard');
+    window.open('https://github.com/elvbom');
+});
